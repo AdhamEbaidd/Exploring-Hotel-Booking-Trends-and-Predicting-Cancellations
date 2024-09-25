@@ -39,7 +39,7 @@ Python, Data Visualization, SQL , Machine Learning , Deep Learning, Data Analysi
 This Dataset contains the data for around 200,000 diffrent Hotel Reservations/Bookings from 2017 to 2019 for the JW Marriott and the Renaissance Hotels in Egypt. Each entry has information like the date of the booking , lead time , customer type, distribution channel , the number of nights booked and wether the booking was cancelled or not.
 ## Key Findings
 ### Revenue Analysis and General Facts  
-Summertime in Egypt is really special and vistors from all over the world come to Egypt to enjoy it's sunny beaches or the vibrant city life of Cairo. This is evident when analyzing the month with the most reservations across both hotels in this dataset.
+Summertime in Egypt is really special and vistors from all over the world come to Egypt to enjoy it's sunny beaches or the vibrant city life of Cairo. This is evident when analyzing the months with the most reservations across both hotels in this dataset.
 
 ![number-of-reservations-per-month](https://i.postimg.cc/85vvs37G/number-of-reservations-per-month.png "number-of-reservations-per-month")  
 The month of August is by far the busiest month in the year.   
