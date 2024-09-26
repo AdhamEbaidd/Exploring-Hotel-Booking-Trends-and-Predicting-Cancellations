@@ -63,7 +63,7 @@ But when anlyzing the revenue each hotel makes across each month we can see an i
 
 ![Average-Revenue-per-Month](https://i.postimg.cc/0jfbwqxT/Average-Revenue-per-Month.png"Average-Revenue-per-Month")  
 
-While **Renaissance Hotel** is achieving fairly consistent revenue throughout the year with a slight peak during the summer , **JW Marriott Hotel** achieves margianlly higher revenue during the summer peaking during August. This may come down to various factors including Brand Perception, Facilities and Amenities & Marketing and Promotions.  
+While **JW Marriott Hotel** is achieving fairly consistent revenue throughout the year with a slight peak during the summer , **Renaissance Hotel** achieves margianlly higher revenue during the summer peaking during August. This may come down to various factors including Brand Perception, Facilities and Amenities & Marketing and Promotions.  
 
 Analyzing the geographical distribution of the hotel's customer base particularly the top 10 nationalities with the most reservations we can see the following.  
 | Country         | Number of Reservations |
