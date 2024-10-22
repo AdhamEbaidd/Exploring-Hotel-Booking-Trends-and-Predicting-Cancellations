@@ -5,8 +5,10 @@
 **Email:** adhamebaid1@gmail.com 
 ## Description
 This project undertakes a comprehensive exploratory data analysis (EDA) of hotel reservation data, focusing on understanding guest behavior, reservation trends, and the factors influencing cancellation rates. It aims to understand the underlying factors that could help anticipate a guest cancelling their reservation beforehand.
-![JW Marriott Hotel Cairo](https://cache.marriott.com/content/dam/marriott-renditions/CAIJW/caijw-golf-0233-hor-feat.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1920px:* "JW Marriott Hotel Cairo")  
-![Renaissance Hotel Cairo](https://cf.bstatic.com/xdata/images/hotel/max1024x768/470657601.jpg?k=b9b8d001aee86a4cf5213866e6b367992e98fa31532284356ec8815e3dde5fad&o=&hp=1* "Renaissance Hotel Cairo")
+![Jw marriot](https://github.com/user-attachments/assets/11e4c05a-8697-421e-abe9-a13dc4f3e749)
+
+![Reinessance](https://github.com/user-attachments/assets/d194eeaf-a8d7-4d65-97ac-15aa3e0dea9e)
+
 
 ## Appendix
 
@@ -41,8 +43,10 @@ This Dataset contains the data for around 200,000 diffrent Hotel Reservations/Bo
 ### Revenue Analysis and General Facts  
 Summertime in Egypt is really special and vistors from all over the world come to Egypt to enjoy it's sunny beaches or the vibrant city life of Cairo. This is evident when analyzing the months with the most reservations across both hotels in this dataset.
 
-![number-of-reservations-per-month](https://i.postimg.cc/85vvs37G/number-of-reservations-per-month.png "number-of-reservations-per-month")  
-The month of August is by far the busiest month in the year.   
+![number_of_reservations_per_month](https://github.com/user-attachments/assets/0fbaac41-bd08-42d4-bcdc-b76dd2595a9b)   
+
+The month of August is by far the busiest month in the year. 
+
 It is also the month where hotels make the most revenue (total revenue across both hotels)
 | Month      | Total Revenue |
 |------------|---------------|
@@ -61,7 +65,8 @@ It is also the month where hotels make the most revenue (total revenue across bo
 
 But when anlyzing the revenue each hotel makes across each month we can see an intresting insight.  
 
-![Average-Revenue-per-Month](https://i.postimg.cc/0jfbwqxT/Average-Revenue-per-Month.png"Average-Revenue-per-Month")  
+![Average_Revenue_per_Month](https://github.com/user-attachments/assets/27bf7e30-22f9-40ff-af08-b3b853f1cd88)
+
 
 While **JW Marriott Hotel** is achieving fairly consistent revenue throughout the year with a slight peak during the summer , **Renaissance Hotel** achieves margianlly higher revenue during the summer peaking during August. This may come down to various factors including Brand Perception, Facilities and Amenities & Marketing and Promotions.  
 
@@ -96,26 +101,32 @@ There is a consensus on choosing **Self-Catring** as it is the most popular choi
  ### Cancellation Relations and Trends  
  In todays world Hotel Cancellations have become a common occurence. Wether it's due to a change in travel plans or unforseen circumstances Hotel booking cancellations can lead to revenue loss. This project aim to analyze diffrent factors that could be related to Booking Cancellations and could help us understand more the reasons that might be behind such cancellations and hopefully forsee and prevent these cancellations.  
  Let's start by answering a simple question , **are people with a history of previous cancellations more likely to cancel an upcoming reservation?**  
+![Cancellation_Rate_by_Previous_Cancellations (1)](https://github.com/user-attachments/assets/912fa0d8-0728-42b6-b899-b67f98efd6f6)
 
- ![Cancellation_Rate_by_Previous_Cancellations](https://i.postimg.cc/c4LQBFjR/Cancellation-Rate-by-Previous-Cancellations-1.png"Cancellation_Rate_by_Previous_Cancellations")  
+
  As expected people who canceled a reseravtion before are much more likely to cancel another reservation  
+![Cancellation_Rate_by_Previous_Cancellations](https://github.com/user-attachments/assets/d56d4f0e-e8b5-4e53-88a2-50405c11ef28)
 
- ![Cancellation_Rate_vs_Previous_Cancellations](https://i.postimg.cc/bJRtQn9V/Cancellation-Rate-by-Previous-Cancellations.png"Cancellation_Rate_vs_Previous_Cancellations")   
+
  Furthermore it appears that people who have cancelled 14 or more times before are almost certain to cancel their reservation again.   
 
    **Let's analyze more relations present in the data.**  
+![Cancellation_Rate_by_Repeated_Guests_Vs_First_Time_Guests](https://github.com/user-attachments/assets/a4335332-58e4-4f8c-b0f8-1f491e81182e)
 
- ![Cancellation-Rate-by-Repeated-Guests-Vs-First-Time-Guests](https://i.postimg.cc/X7qCCpGx/Cancellation-Rate-by-Repeated-Guests-Vs-First-Time-Guests.png"Cancellation-Rate-by-Repeated-Guests-Vs-First-Time-Guests")  
+
  As evident by this chart , First time guests are more likely to cancel a reservation than repeated guests. This could be because repeated guests know the experience they are going to get and they liked it enough to book again making the likelyhood that the guest changes their mind last minute very little. 
 
-   ![Cancellation-Rate-by-Customer-Type](https://i.postimg.cc/QCwx5Nwn/Cancellation-Rate-by-Customer-Type.png"Cancellation-Rate-by-Customer-Type")  
+![Cancellation_Rate_by_Customer_Type](https://github.com/user-attachments/assets/2711d251-d6b5-444d-acba-0054138cad4e)
+
    We can see that **Transient** guests are the most likely to cancel a reservation. This could be due to the nature of their bookings, which are typically short-term and often made without solid plans.On the other hand, **Group** customers have the lowest cancellation rate. This could be attributed to the fact that group bookings are often planned and coordinated in advance, making them less likely to be cancelled. This insight suggests that the hotel could focus on strategies to reduce cancellations among **Transient** customers, such as offering flexible booking options. For **Group** customers, the hotel could offer benefits for early booking or long-term stays to maintain the low cancellation rate.
 
-![Cancellation-Rate-by-Distribution-Channel](https://i.postimg.cc/g2NcqKCZ/Cancellation-Rate-by-Distribution-Channel.png"Cancellation-Rate-by-Distribution-Channel")  
+![Cancellation_Rate_by_Distribution_Channel](https://github.com/user-attachments/assets/6967dfbd-4973-4d91-81a3-61fe24ab3537)
+
 
 Bookings made through **Travel Agents/Tour Operators** has the highest cancellation rate. This could be lack of direct communication between the hotel and the customer or the ease of cancellation provided by these platforms. On the other hand the **Direct** Distribution channel has the lowest cancellation rate as the direct interaction between the hotel and the customer allows for better understanding of the booking conditions and there is a bigger feeling of commitment when bookings are made directly with the hotel as opposed to bookings made through a third party. To reduce the cancellations made by guests who book through a **Travel Agents/Tour Operators** the hotel could work closely with these partners to ensure clear communication of booking conditions and cancellation policies to the customers.  
 
-![Cancellation-Rate-by-Deposit-Type](https://i.postimg.cc/gkpGC5dh/Cancellation-Rate-by-Deposit-Type.png"Cancellation-Rate-by-Deposit-Type")  
+![Cancellation_Rate_by_Deposit_Type](https://github.com/user-attachments/assets/874a60ad-d5fe-4e6a-9bfb-c2001f6715dd)
+
 
 There is a very strange pattern here were guests with deposit type **Non Refund** are the most likely to cancel. This seems very counter-intuitive and confusing but perhaps further investigation might reveal the reason behind this pattern.  
 ## Predictive Models  
